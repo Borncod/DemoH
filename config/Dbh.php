@@ -3,7 +3,7 @@
 
 class Dbh {
     private $host = "0.0.0.0:3306";
-    private $dbname = "testDb";
+    private $dbname = "mydb";
     private $dbusernmae = "root";
     private $dbpassword = "";
 
