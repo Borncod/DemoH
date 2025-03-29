@@ -9,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
     $dob = $_POST["dob"];
 }
 
-require_once "../DemoH/config/Dbh.php";
-require_once "../DemoH/config/signup.php";
+require_once("../DemoH/config/Dbh.php");
+require_once("../DemoH/config/signup.php");
 
 $signup = new Signup($username,$password,$user_image,$dob);
