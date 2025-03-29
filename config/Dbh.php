@@ -10,7 +10,7 @@ class Dbh {
 
     protected function connect(){
          try {
-            $pdo = new PDO("mysql:host".$this->host.", dbname".$this->dbname,$this->dbusernmae,$this->dbpassword);
+            $pdo = new PDO("mysql:host=".$this->host.", dbname=".$this->dbname,$this->dbusernmae,$this->dbpassword);
             $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
             return $pdo;
