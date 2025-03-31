@@ -15,7 +15,7 @@
 
        <h2> Signup Page </h2>
     
-    <form action="../DemoH/include/action.php" method="post">
+    <form action="../DemoH/include/action.php" method="POST">
   <i class="fas fa-user"></i> <label for="uname">Username</label>
   <input type="text" id="lname" name="username">
   <i class="fas fa-lock"></i> <label for="pwd" >Password</label>
