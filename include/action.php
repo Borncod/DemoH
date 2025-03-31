@@ -13,3 +13,4 @@ require_once("../config/Dbh.php");
 require_once("../config/Signup.php");
 
 $signup = new Signup($username,$password,$user_image,$dob);
+$signup.insertUser();
