@@ -20,10 +20,10 @@ class Signup extends Dbh {
     private function insertUser(){
         $query = "INSERT INTO user (username, pswd, dateOfBirth, user_image) VALUES (:un,:p,:db,:ui);";
         $stmt = parent::connect()->prepare($query);
-        $stmt.bindParam(":un", $this->username);
-        $stmt.bindParam(":p", $this->password);
-        $stmt.bindParam(":db", $this->dob);
-        $stmt.bindParam(":ui", $this->u_image);
+        $stmt->bindParam(":un", $this->username);
+        $stmt->bindParam(":p", $this->password);
+        $stmt->bindParam(":db", $this->dob);
+        $stmt->bindParam(":ui", $this->u_image);
 
         $stmt->execute();
     }
