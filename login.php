@@ -25,6 +25,7 @@
   <i class="fas fa-lock"></i> <label for="pwd" >Password</label>
   <input type="password" id="pwd" name="password" required>
   <input style="width:30%;background:black;color:white;padding:8px;border-radius:4px" type="submit" value="Submit">
+  <br />
   <p>Don't have an account? <a href="index.php">Signup </a>here</p>
 </form>
 
