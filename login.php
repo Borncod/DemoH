@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 
 
 <!DOCTYPE html>
@@ -13,19 +17,15 @@
 <body>
 <div class="container">
 
-       <h2> Signup Page </h2>
+       <h2> Login Page </h2>
     
-    <form action="../DemoH/include/action.php" method="POST">
+    <form action="../DemoH/include/login-inc.php" method="POST">
   <i class="fas fa-user"></i> <label for="uname">Username</label>
   <input type="text" id="lname" name="username">
   <i class="fas fa-lock"></i> <label for="pwd" >Password</label>
   <input type="password" id="pwd" name="password" required>
-  <i class="fas fa-envelope"></i> <label for="user_image">image</label>
-  <input type="file" id="email" name="user_image" required>
-  <i class="fas fa-envelope"></i> <label for="dob">Date of borth</label>
-  <input type="date" name="dob" id="dob">
   <input style="width:30%;background:black;color:white;padding:8px;border-radius:4px" type="submit" value="Submit">
-  <p>Already have an account? <a href="login.php">Login </a>here</p>
+  <p>Don't have an account? <a href="index.php">Signup </a>here</p>
 </form>
 
    </div>
