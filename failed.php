@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +6,6 @@ session_start();
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome <?php echo $_SESSION["username"]; ?></h1>
-
+    <h1>Login Failed</h1>
 </body>
 </html>
