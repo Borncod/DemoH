@@ -21,9 +21,9 @@
   <i class="fas fa-lock"></i> <label for="pwd" >Password</label>
   <input type="password" id="pwd" name="password" required>
   <i class="fas fa-envelope"></i> <label for="user_image">image</label>
-  <input type="file" id="email" name="user_image" required> <br />
+  <input type="file" id="email" name="user_image" required> <br /> <br />
   <i class="fas fa-envelope"></i> <label for="dob">Date of borth</label>
-  <input type="date" name="dob" id="dob"> <br />
+  <input type="date" name="dob" id="dob"> <br /> <br />
   <input style="width:30%;background:black;color:white;padding:8px;border-radius:4px" type="submit" value="Submit">
   <p>Already have an account? <a href="login.php">Login </a>here</p>
 </form>
